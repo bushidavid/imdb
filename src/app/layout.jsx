@@ -13,11 +13,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body >
         <Providers>
-          <Header>
+          <Header />
           {children}
-          </Header>
         </Providers>
-        </body>
+      </body>
     </html>
   )
 }
